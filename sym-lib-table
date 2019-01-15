@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name Arduino)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/arduino.lib)(options "")(descr ""))
+  (lib (name Nixie_Module)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/Nixie_Module.lib)(options "")(descr ""))
+  (lib (name NixieKitLib)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/NixieKitLib.lib)(options "")(descr ""))
+  (lib (name Nixie_Module_BaseBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/Nixie_Module_BaseBoard-rescue.lib)(options "")(descr ""))
+  (lib (name NixiePowerSupply-rescue)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/NixiePowerSupply-rescue.lib)(options "")(descr ""))
+  (lib (name BaseBoard)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/BaseBoard.lib)(options "")(descr ""))
+  (lib (name russian-nixies)(type Legacy)(uri ${KIPRJMOD}/lib/symbols/russian-nixies.lib)(options "")(descr ""))
+)

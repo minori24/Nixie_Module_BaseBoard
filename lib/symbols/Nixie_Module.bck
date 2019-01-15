@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Nixie_Module_IN-12_IN-14
+D Nixie Module IN-12 IN-14
+K nixie
+F ~
+$ENDCMP
+#
+#End Doc Library

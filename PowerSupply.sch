@@ -1,0 +1,479 @@
+EESchema Schematic File Version 4
+LIBS:Nixie_Module_BaseBoard-cache
+LIBS:NixiePowerSupply-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NixiePowerSupply-rescue:NJM2360 U2
+U 1 1 59DB68DB
+P 4250 3900
+F 0 "U2" H 4050 4300 60  0000 C CNN
+F 1 "MC34063A" H 4250 3550 60  0000 C CNN
+F 2 "Packages_DIP:DIP-8_W7.62mm" H 4300 3900 60  0001 C CNN
+F 3 "" H 4300 3900 60  0001 C CNN
+	1    4250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:C C2
+U 1 1 59DB698D
+P 3050 4050
+F 0 "C2" H 3075 4150 50  0000 L CNN
+F 1 "0.1uF" H 3075 3950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3088 3900 50  0001 C CNN
+F 3 "" H 3050 4050 50  0001 C CNN
+	1    3050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:C C3
+U 1 1 59DB69F9
+P 3450 4150
+F 0 "C3" H 3475 4250 50  0000 L CNN
+F 1 "1000pF" H 3475 4050 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3488 4000 50  0001 C CNN
+F 3 "" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:C C4
+U 1 1 59DB6A29
+P 3750 4700
+F 0 "C4" H 3775 4800 50  0000 L CNN
+F 1 "0.1uF" H 3775 4600 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3788 4550 50  0001 C CNN
+F 3 "" H 3750 4700 50  0001 C CNN
+	1    3750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:R R1
+U 1 1 59DB6A74
+P 4250 3300
+F 0 "R1" V 4330 3300 50  0000 C CNN
+F 1 "0.15" V 4250 3300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4180 3300 50  0001 C CNN
+F 3 "" H 4250 3300 50  0001 C CNN
+	1    4250 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:R R2
+U 1 1 59DB6AE1
+P 4950 3550
+F 0 "R2" V 5030 3550 50  0000 C CNN
+F 1 "680" V 4950 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4880 3550 50  0001 C CNN
+F 3 "" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:R R4
+U 1 1 59DB6B80
+P 5200 3550
+F 0 "R4" V 5280 3550 50  0000 C CNN
+F 1 "1k" V 5200 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5130 3550 50  0001 C CNN
+F 3 "" H 5200 3550 50  0001 C CNN
+	1    5200 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:R R3
+U 1 1 59DB6BAC
+P 5100 4300
+F 0 "R3" V 5180 4300 50  0000 C CNN
+F 1 "1k" V 5100 4300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5030 4300 50  0001 C CNN
+F 3 "" H 5100 4300 50  0001 C CNN
+	1    5100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:+12V #PWR030
+U 1 1 59DB6CA9
+P 2700 3200
+F 0 "#PWR030" H 2700 3050 50  0001 C CNN
+F 1 "+12V" H 2700 3340 50  0000 C CNN
+F 2 "" H 2700 3200 50  0001 C CNN
+F 3 "" H 2700 3200 50  0001 C CNN
+	1    2700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR031
+U 1 1 59DB6CCF
+P 2700 4950
+F 0 "#PWR031" H 2700 4700 50  0001 C CNN
+F 1 "GND" H 2700 4800 50  0000 C CNN
+F 2 "" H 2700 4950 50  0001 C CNN
+F 3 "" H 2700 4950 50  0001 C CNN
+	1    2700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR032
+U 1 1 59DB6CF5
+P 3050 4950
+F 0 "#PWR032" H 3050 4700 50  0001 C CNN
+F 1 "GND" H 3050 4800 50  0000 C CNN
+F 2 "" H 3050 4950 50  0001 C CNN
+F 3 "" H 3050 4950 50  0001 C CNN
+	1    3050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3300 3750 3300
+Connection ~ 2700 3300
+Connection ~ 3750 3300
+Wire Wire Line
+	3050 3900 3050 3300
+Connection ~ 3050 3300
+Wire Wire Line
+	3050 4200 3050 4950
+Wire Wire Line
+	3800 3650 3750 3650
+Wire Wire Line
+	3750 3650 3750 3300
+Wire Wire Line
+	3800 3800 3250 3800
+$Comp
+L NixiePowerSupply-rescue:GND #PWR033
+U 1 1 59DB702F
+P 3250 4950
+F 0 "#PWR033" H 3250 4700 50  0001 C CNN
+F 1 "GND" H 3250 4800 50  0000 C CNN
+F 2 "" H 3250 4950 50  0001 C CNN
+F 3 "" H 3250 4950 50  0001 C CNN
+	1    3250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3800 3250 4950
+Wire Wire Line
+	3800 3950 3450 3950
+Wire Wire Line
+	3450 3950 3450 4000
+Wire Wire Line
+	3800 4100 3750 4100
+$Comp
+L NixiePowerSupply-rescue:GND #PWR034
+U 1 1 59DB709C
+P 3450 4950
+F 0 "#PWR034" H 3450 4700 50  0001 C CNN
+F 1 "GND" H 3450 4800 50  0000 C CNN
+F 2 "" H 3450 4950 50  0001 C CNN
+F 3 "" H 3450 4950 50  0001 C CNN
+	1    3450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR035
+U 1 1 59DB70C2
+P 3750 4950
+F 0 "#PWR035" H 3750 4700 50  0001 C CNN
+F 1 "GND" H 3750 4800 50  0000 C CNN
+F 2 "" H 3750 4950 50  0001 C CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+	1    3750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4300 3450 4950
+Wire Wire Line
+	4700 3650 4800 3650
+Wire Wire Line
+	4800 3650 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4950 3800 4950 3700
+Wire Wire Line
+	5200 3950 5200 3700
+Wire Wire Line
+	4950 3400 4950 3300
+Connection ~ 4950 3300
+Wire Wire Line
+	5200 3400 5200 3300
+Connection ~ 5200 3300
+Wire Wire Line
+	4700 4100 5100 4100
+Wire Wire Line
+	5100 4100 5100 4150
+$Comp
+L NixiePowerSupply-rescue:GND #PWR036
+U 1 1 59DB7276
+P 5100 4950
+F 0 "#PWR036" H 5100 4700 50  0001 C CNN
+F 1 "GND" H 5100 4800 50  0000 C CNN
+F 2 "" H 5100 4950 50  0001 C CNN
+F 3 "" H 5100 4950 50  0001 C CNN
+	1    5100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4450 5100 4950
+$Comp
+L NixiePowerSupply-rescue:Q_NMOS_GDS Q2
+U 1 1 59DB7443
+P 6000 3650
+F 0 "Q2" H 6200 3700 50  0000 L CNN
+F 1 "2SK3115" H 6200 3600 50  0000 L CNN
+F 2 "TO_SOT_THT:TO-220-3_Vertical" H 6200 3750 50  0001 C CNN
+F 3 "" H 6000 3650 50  0001 C CNN
+	1    6000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:Q_PNP_ECB Q1
+U 1 1 59DB7496
+P 5650 4100
+F 0 "Q1" H 5850 4150 50  0000 L CNN
+F 1 "2SA1015" H 5850 4050 50  0000 L CNN
+F 2 "TO_SOT_THT:TO-92_Wide" H 5850 4200 50  0001 C CNN
+F 3 "" H 5650 4100 50  0001 C CNN
+	1    5650 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:D D1
+U 1 1 59DB7660
+P 5350 3850
+F 0 "D1" H 5350 3950 50  0000 C CNN
+F 1 "1N4148" H 5350 3750 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 3850 50  0001 C CNN
+F 3 "" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:D_Zener D2
+U 1 1 59DB7A61
+P 6300 3300
+F 0 "D2" H 6300 3400 50  0000 C CNN
+F 1 "UF2010" H 6300 3200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 6300 3300 50  0001 C CNN
+F 3 "" H 6300 3300 50  0001 C CNN
+	1    6300 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:L L1
+U 1 1 59DB7B1D
+P 5750 3300
+F 0 "L1" V 5700 3300 50  0000 C CNN
+F 1 "470uH" V 5825 3300 50  0000 C CNN
+F 2 "NixiePowerSupply:Inductors_LHL13NB471K" H 5750 3300 50  0001 C CNN
+F 3 "" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:CP C5
+U 1 1 59DB82FB
+P 7050 3950
+F 0 "C5" H 7075 4050 50  0000 L CNN
+F 1 "4.7u_400V" H 7075 3850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 7088 3800 50  0001 C CNN
+F 3 "" H 7050 3950 50  0001 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3800 4700 3800
+Wire Wire Line
+	5200 3950 4700 3950
+$Comp
+L NixiePowerSupply-rescue:R R5
+U 1 1 59DB99B3
+P 6700 3650
+F 0 "R5" V 6780 3650 50  0000 C CNN
+F 1 "470k" V 6700 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6630 3650 50  0001 C CNN
+F 3 "" H 6700 3650 50  0001 C CNN
+	1    6700 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:R R7
+U 1 1 59DB9A18
+P 6700 4550
+F 0 "R7" V 6780 4550 50  0000 C CNN
+F 1 "2.2k" V 6700 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6630 4550 50  0001 C CNN
+F 3 "" H 6700 4550 50  0001 C CNN
+	1    6700 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 4100
+Wire Wire Line
+	5350 4000 5350 4100
+Connection ~ 5350 4100
+Wire Wire Line
+	4400 3300 4800 3300
+Wire Wire Line
+	6100 3450 6100 3300
+Connection ~ 6100 3300
+Wire Wire Line
+	5350 3650 5750 3650
+Wire Wire Line
+	5750 3650 5750 3900
+Wire Wire Line
+	6150 3300 6100 3300
+$Comp
+L NixiePowerSupply-rescue:GND #PWR038
+U 1 1 59DB9EDE
+P 6100 4950
+F 0 "#PWR038" H 6100 4700 50  0001 C CNN
+F 1 "GND" H 6100 4800 50  0000 C CNN
+F 2 "" H 6100 4950 50  0001 C CNN
+F 3 "" H 6100 4950 50  0001 C CNN
+	1    6100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR037
+U 1 1 59DB9F1F
+P 5750 4950
+F 0 "#PWR037" H 5750 4700 50  0001 C CNN
+F 1 "GND" H 5750 4800 50  0000 C CNN
+F 2 "" H 5750 4950 50  0001 C CNN
+F 3 "" H 5750 4950 50  0001 C CNN
+	1    5750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR039
+U 1 1 59DB9F60
+P 6700 4950
+F 0 "#PWR039" H 6700 4700 50  0001 C CNN
+F 1 "GND" H 6700 4800 50  0000 C CNN
+F 2 "" H 6700 4950 50  0001 C CNN
+F 3 "" H 6700 4950 50  0001 C CNN
+	1    6700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixiePowerSupply-rescue:GND #PWR041
+U 1 1 59DB9FA1
+P 7050 4950
+F 0 "#PWR041" H 7050 4700 50  0001 C CNN
+F 1 "GND" H 7050 4800 50  0000 C CNN
+F 2 "" H 7050 4950 50  0001 C CNN
+F 3 "" H 7050 4950 50  0001 C CNN
+	1    7050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4300 5750 4950
+Wire Wire Line
+	6100 3850 6100 4950
+Wire Wire Line
+	6700 4250 6700 4400
+Wire Wire Line
+	6700 3800 6700 3950
+Wire Wire Line
+	6450 3300 6700 3300
+Wire Wire Line
+	7050 3150 7050 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	7050 4100 7050 4950
+Wire Wire Line
+	6700 3500 6700 3300
+Wire Wire Line
+	6700 4700 6700 4950
+$Comp
+L NixiePowerSupply-rescue:+HV #PWR040
+U 1 1 59DBA508
+P 7050 3150
+F 0 "#PWR040" H 7050 3000 50  0001 C CNN
+F 1 "+HV" H 7050 3300 50  0000 C CNN
+F 2 "" H 7050 3150 50  0001 C CNN
+F 3 "" H 7050 3150 50  0001 C CNN
+	1    7050 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 3300
+Wire Wire Line
+	5350 3700 5350 3650
+Connection ~ 5750 3650
+Wire Wire Line
+	3750 4850 3750 4950
+Wire Wire Line
+	3750 4100 3750 4450
+Wire Wire Line
+	3750 4450 6350 4450
+Wire Wire Line
+	6350 4450 6350 4100
+$Comp
+L NixiePowerSupply-rescue:Volume R6
+U 1 1 59DBB486
+P 6700 4100
+F 0 "R6" V 6600 4150 50  0000 L CNN
+F 1 "VR_2K" V 6800 4000 50  0000 L CNN
+F 2 "NixiePowerSupply:VOL_3362P-1-202LF" V 6630 4100 50  0001 C CNN
+F 3 "" H 6700 4100 50  0001 C CNN
+	1    6700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4100 6450 4100
+Connection ~ 3750 4450
+$Comp
+L NixiePowerSupply-rescue:CP C1
+U 1 1 59DCF078
+P 2700 4050
+F 0 "C1" H 2725 4150 50  0000 L CNN
+F 1 "100uF_16V" H 2250 3950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 2738 3900 50  0001 C CNN
+F 3 "" H 2700 4050 50  0001 C CNN
+	1    2700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3200 2700 3300
+Wire Wire Line
+	2700 4200 2700 4950
+Wire Wire Line
+	2700 3300 2700 3900
+Wire Wire Line
+	3750 3300 3050 3300
+Wire Wire Line
+	3050 3300 2700 3300
+Wire Wire Line
+	4800 3300 4950 3300
+Wire Wire Line
+	4950 3300 5200 3300
+Wire Wire Line
+	5200 3300 5600 3300
+Wire Wire Line
+	5100 4100 5350 4100
+Wire Wire Line
+	5350 4100 5450 4100
+Wire Wire Line
+	6100 3300 5900 3300
+Wire Wire Line
+	6700 3300 7050 3300
+Wire Wire Line
+	7050 3300 7050 3800
+Wire Wire Line
+	5750 3650 5800 3650
+Wire Wire Line
+	3750 4450 3750 4550
+Text Notes 8000 2550 0    50   ~ 0
+Cable: http://akizukidenshi.com/catalog/g/gC-12247/
+$EndSCHEMATC

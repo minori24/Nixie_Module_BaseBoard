@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Arduino)(type KiCad)(uri ${KIPRJMOD}/lib/modules/Arduino.pretty)(options "")(descr ""))
+  (lib (name NixiePowerSupply)(type KiCad)(uri ${KIPRJMOD}/lib/modules/NixiePowerSupply.pretty)(options "")(descr ""))
+  (lib (name BaseBoard)(type KiCad)(uri ${KIPRJMOD}/lib/modules/BaseBoard.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/lib/modules/logo.pretty)(options "")(descr ""))
+)
